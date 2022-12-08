@@ -1,0 +1,40 @@
+
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: #eee;
+}
+
+
+.header{
+
+    text-align: center;
+    padding: 5px;
+    height: 6vh;
+    width: 100vw;
+    color: white;
+    background-color: black;
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content{
+    height: 80vh;
+    width: 100vw;
+}
+
+.qr{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 15px rgb(75, 75, 75);
+    margin-left: 24vw;
+}

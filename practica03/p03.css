@@ -1,0 +1,36 @@
+body { 
+    background-color: #eee;
+}
+
+.padre {
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin: 10px;
+}
+
+.hijo {
+    margin: 15px;
+    border: 3px solid;
+    text-align: center;
+    padding: 5px;
+    background-color: gray;
+}
+
+img:hover {
+    cursor: pointer;
+    
+}
+
+.hijo:hover {
+    background-color: rgba(0,0,0, 0.3);
+    border: 3px solid white;
+    color: white;
+}
+
+

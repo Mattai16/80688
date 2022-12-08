@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Document</title>
+
+    <script>
+        function cambiarColor(color) {
+            const colores = ["Blue", "Red", "Gray", "White", "Aqua"];
+            const titulos = ["titulo1", "titulo2", "titulo3", "titulo4", "titulo5"];
+
+            console.log("Color recibido ", color);
+
+            for (let index = 0; index < colores.length; index++) {
+                var t = document.getElementById(titulos[index]);
+                t.style.color = colores[index];
+
+            }
+
+            for (const p in c) {
+                if(c[p] != "lenght"){
+                c[p].style.color = color
+                }
+            }
+        
+        }
+    </script>
+
+</head>
+
+
+<body>
+    <h1 id="titulo1">Tituloooooo 1</h1>
+    <h1 id="titulo2">Tituloooooo 2</h1>
+    <h1 id="titulo3">Tituloooooo 3</h1>
+    <h1 id="titulo4">Tituloooooo 4</h1>
+    <h1 id="titulo5">Tituloooooo 5</h1>
+
+    <button onclick="cambiarColor('Green')">Verde</button>
+    <button onclick="cambiarColor('Red')">Rojo</button>
+
+</body>
+
+
+</html>
